@@ -289,7 +289,7 @@ int main(int argc, char *argv[]) {
     int classic = 0;
 
     srand((unsigned) time(NULL));
-    setlocale(LC_ALL, "");
+    /* setlocale(LC_ALL, ""); */
 
     /* Many thanks to morph- (morph@jmss.com) for this getopt patch */
     opterr = 0;
